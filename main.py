@@ -122,7 +122,7 @@ async def handle_pagination(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Create an InlineKeyboardMarkup object with the pagination buttons
     reply_markup = telegram.InlineKeyboardMarkup([buttons])
 
-    movie_poster_url = f'https://image.tmdb.org/t/p/w500{results["poster_path"]}'
+    movie_poster_url = https://graph.org/file/b0a4284048c272e22dfaf-85e14d89b36b9c3b29.jpgresults["poster_path"]}'
     file_obj = await get_raw_image(movie_poster_url)
 
     # title_key might be saved as either name or title
